@@ -1,0 +1,82 @@
+,train_df,test_df,train_null,test_null,train_null%,test_null%,train_dtype,test_dtype,ms_str,ftypes,decr
+Id,True,True,0,0.0,0.0,0.0,int64,int64,,Discrete,Observation number
+PID,True,True,0,0.0,0.0,0.0,int64,int64,,Nominal,Parcel identification number  - can be used with city web site for parcel review. 
+MS SubClass,True,True,0,0.0,0.0,0.0,int64,int64,,Nominal,Identifies the type of dwelling involved in the sale.
+MS Zoning,True,True,0,0.0,0.0,0.0,object,object,,Nominal,Identifies the general zoning classification of the sale.
+Lot Frontage,True,True,330,160.0,16.09,18.22,float64,float64,,Continuous,Linear feet of street connected to property
+Lot Area,True,True,0,0.0,0.0,0.0,int64,int64,,Continuous,Lot size in square feet
+Street,True,True,0,0.0,0.0,0.0,object,object,,Nominal,Type of road access to property
+Alley,True,True,1911,820.0,93.17,93.39,object,object,,Nominal,Type of alley access to property
+Lot Shape,True,True,0,0.0,0.0,0.0,object,object,,Ordinal,General shape of property
+Land Contour,True,True,0,0.0,0.0,0.0,object,object,,Nominal,Flatness of the property
+Utilities,True,True,0,0.0,0.0,0.0,object,object,,Ordinal,Type of utilities available
+Lot Config,True,True,0,0.0,0.0,0.0,object,object,,Nominal,Lot configuration
+Land Slope,True,True,0,0.0,0.0,0.0,object,object,,Ordinal,Slope of property
+Neighborhood,True,True,0,0.0,0.0,0.0,object,object,,Nominal,Physical locations within Ames city limits (map available)
+Condition 1,True,True,0,0.0,0.0,0.0,object,object,,Nominal,Proximity to various conditions
+Condition 2,True,True,0,0.0,0.0,0.0,object,object,,Nominal,Proximity to various conditions (if more than one is present)
+Bldg Type,True,True,0,0.0,0.0,0.0,object,object,,Nominal,Type of dwelling
+House Style,True,True,0,0.0,0.0,0.0,object,object,,Nominal,Style of dwelling
+Overall Qual,True,True,0,0.0,0.0,0.0,int64,int64,,Ordinal,Rates the overall material and finish of the house
+Overall Cond,True,True,0,0.0,0.0,0.0,int64,int64,,Ordinal,Rates the overall condition of the house
+Year Built,True,True,0,0.0,0.0,0.0,int64,int64,,Discrete,Original construction date
+Year Remod/Add,True,True,0,0.0,0.0,0.0,int64,int64,,Discrete,Remodel date (same as construction date if no remodeling or additions)
+Roof Style,True,True,0,0.0,0.0,0.0,object,object,,Nominal,Type of roof
+Roof Matl,True,True,0,0.0,0.0,0.0,object,object,,Nominal,Roof material
+Exterior 1st,True,True,0,0.0,0.0,0.0,object,object,['PreCast'],Nominal,Exterior covering on house
+Exterior 2nd,True,True,0,0.0,0.0,0.0,object,object,,Nominal,Exterior covering on house (if more than one material)
+Mas Vnr Type,True,True,22,1.0,1.0699999999999998,0.11,object,object,,Nominal,Masonry veneer type
+Mas Vnr Area,True,True,22,1.0,1.0699999999999998,0.11,float64,float64,,Continuous,Masonry veneer area in square feet
+Exter Qual,True,True,0,0.0,0.0,0.0,object,object,,Ordinal,Evaluates the quality of the material on the exterior 
+Exter Cond,True,True,0,0.0,0.0,0.0,object,object,,Ordinal,Evaluates the present condition of the material on the exterior
+Foundation,True,True,0,0.0,0.0,0.0,object,object,,Nominal,Type of foundation
+Bsmt Qual,True,True,0,0.0,0.0,0.0,object,object,[nan],Ordinal,Evaluates the height of the basement
+Bsmt Cond,True,True,0,0.0,0.0,0.0,object,object,[nan],Ordinal,Evaluates the general condition of the basement
+Bsmt Exposure,True,True,0,0.0,0.0,0.0,object,object,[nan],Ordinal,Refers to walkout or garden level walls
+BsmtFin Type 1,True,True,0,0.0,0.0,0.0,object,object,[nan],Ordinal,Rating of basement finished area
+BsmtFin SF 1,True,True,1,0.0,0.05,0.0,float64,int64,,Continuous,Type 1 finished square feet
+BsmtFin Type 2,True,True,0,0.0,0.0,0.0,object,object,[nan],Ordinal,Rating of basement finished area (if multiple types)
+BsmtFin SF 2,True,True,1,0.0,0.05,0.0,float64,int64,,Continuous,Type 2 finished square feet
+Bsmt Unf SF,True,True,1,0.0,0.05,0.0,float64,int64,,Continuous,Unfinished square feet of basement area
+Total Bsmt SF,True,True,1,0.0,0.05,0.0,float64,int64,,Continuous,Total square feet of basement area
+Heating,True,True,0,0.0,0.0,0.0,object,object,['Floor'],Nominal,Type of heating
+Heating QC,True,True,0,0.0,0.0,0.0,object,object,,Ordinal,Heating quality and condition
+Central Air,True,True,0,0.0,0.0,0.0,object,object,,Nominal,Central air conditioning
+Electrical,True,True,0,1.0,0.0,0.11,object,object,[nan],Ordinal,Electrical system
+1st Flr SF,True,True,0,0.0,0.0,0.0,int64,int64,,Continuous,First Floor square feet
+2nd Flr SF,True,True,0,0.0,0.0,0.0,int64,int64,,Continuous,Second floor square feet
+Low Qual Fin SF,True,True,0,0.0,0.0,0.0,int64,int64,,Continuous,Low quality finished square feet (all floors)
+Gr Liv Area,True,True,0,0.0,0.0,0.0,int64,int64,,Continuous,Above grade (ground) living area square feet
+Bsmt Full Bath,True,True,2,0.0,0.1,0.0,float64,int64,,Discrete,Basement full bathrooms
+Bsmt Half Bath,True,True,2,0.0,0.1,0.0,float64,int64,,Discrete,Basement half bathrooms
+Full Bath,True,True,0,0.0,0.0,0.0,int64,int64,,Discrete,Full bathrooms above grade
+Half Bath,True,True,0,0.0,0.0,0.0,int64,int64,,Discrete,Half baths above grade
+Bedroom AbvGr,True,True,0,0.0,0.0,0.0,int64,int64,,Discrete,Bedrooms above grade (does NOT include basement bedrooms)
+Kitchen AbvGr,True,True,0,0.0,0.0,0.0,int64,int64,,Discrete,Kitchens above grade
+Kitchen Qual,True,True,0,0.0,0.0,0.0,object,object,['Po'],Ordinal,Kitchen quality
+TotRms AbvGrd,True,True,0,0.0,0.0,0.0,int64,int64,,Discrete,Total rooms above grade (does not include bathrooms)
+Functional,True,True,0,0.0,0.0,0.0,object,object,,Ordinal,Home functionality (Assume typical unless deductions are warranted)
+Fireplaces,True,True,0,0.0,0.0,0.0,int64,int64,,Discrete,Number of fireplaces
+Fireplace Qu,True,True,0,0.0,0.0,0.0,object,object,[nan],Ordinal,Fireplace quality
+Garage Type,True,True,113,44.0,5.510000000000001,5.01,object,object,[nan],Nominal,Garage location
+Garage Yr Blt,True,True,114,45.0,5.56,5.13,float64,float64,,Discrete,Year garage was built
+Garage Finish,True,True,0,0.0,0.0,0.0,object,object,[nan],Ordinal,Interior finish of the garage
+Garage Cars,True,True,1,0.0,0.05,0.0,float64,int64,,Discrete,Size of garage in car capacity
+Garage Area,True,True,1,0.0,0.05,0.0,float64,int64,,Continuous,Size of garage in square feet
+Garage Qual,True,True,0,0.0,0.0,0.0,object,object,[nan],Ordinal,Garage quality
+Garage Cond,True,True,0,0.0,0.0,0.0,object,object,[nan],Ordinal,Garage condition
+Paved Drive,True,True,0,0.0,0.0,0.0,object,object,,Ordinal,Paved driveway
+Wood Deck SF,True,True,0,0.0,0.0,0.0,int64,int64,,Continuous,Wood deck area in square feet
+Open Porch SF,True,True,0,0.0,0.0,0.0,int64,int64,,Continuous,Open porch area in square feet
+Enclosed Porch,True,True,0,0.0,0.0,0.0,int64,int64,,Continuous,Enclosed porch area in square feet
+3Ssn Porch,True,True,0,0.0,0.0,0.0,int64,int64,,Continuous,Three season porch area in square feet
+Screen Porch,True,True,0,0.0,0.0,0.0,int64,int64,,Continuous,Screen porch area in square feet
+Pool Area,True,True,0,0.0,0.0,0.0,int64,int64,,Continuous,Pool area in square feet
+Pool QC,True,True,0,0.0,0.0,0.0,object,object,[nan],Ordinal,Pool quality
+Fence,True,True,0,0.0,0.0,0.0,object,object,[nan],Ordinal,Fence quality
+Misc Feature,True,True,1986,837.0,96.83,95.33,object,object,[nan],Nominal,Miscellaneous feature not covered in other categories
+Misc Val,True,True,0,0.0,0.0,0.0,int64,int64,,Continuous,$Value of miscellaneous feature
+Mo Sold,True,True,0,0.0,0.0,0.0,int64,int64,,Discrete,Month Sold (MM)
+Yr Sold,True,True,0,0.0,0.0,0.0,int64,int64,,Discrete,Year Sold (YYYY)
+Sale Type,True,True,0,0.0,0.0,0.0,object,object,['VWD'],Nominal,Type of sale
+SalePrice,True,False,0,,0.0,,int64,,,Continuous,Sale price $$

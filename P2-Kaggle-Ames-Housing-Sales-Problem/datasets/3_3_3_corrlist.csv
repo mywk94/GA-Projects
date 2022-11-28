@@ -1,0 +1,21 @@
+,OQ0,OQ1,OQ2
+1,1st Flr SF,Gr Liv Area,Kitchen Qual
+2,Gr Liv Area,Garage Area,Gr Liv Area
+3,Total Bsmt SF,Garage Cars,Garage Cars
+4,Central Air_Y,Full Bath,TotRms AbvGrd
+5,BsmtFin SF 1,1st Flr SF,Exter Qual
+6,Paved Drive,Total Bsmt SF,Mas Vnr Area
+7,Year Built,TotRms AbvGrd,Bsmt Qual
+8,BsmtFin Type 1,Kitchen Qual,Garage Area
+9,Fireplaces,Exter Qual,Fireplace Qu
+10,Garage Area,Year Remod/Add,1st Flr SF
+11,Lot Area,Bsmt Qual,Roof Style_Hip
+12,Garage Cars,Garage Finish,Lot Area
+13,MS Zoning_RL,Year Built,Total Bsmt SF
+14,Garage Finish,Foundation_PConc,Fireplaces
+15,Year Remod/Add,Garage Type_Attchd,Neighborhood_NridgHt
+16,Fireplace Qu,Lot Frontage,BsmtFin SF 1
+17,Garage Cond,Lot Area,Bsmt Exposure
+18,Garage Type_Attchd,Fireplaces,Bldg Type_1Fam
+19,TotRms AbvGrd,Garage Yr Blt,Full Bath
+20,Garage Qual,BsmtFin SF 1,Lot Frontage

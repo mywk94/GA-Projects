@@ -1,0 +1,81 @@
+﻿,Type
+Id,Serial
+PID,Serial
+MS SubClass,Types
+MS Zoning,Types
+Lot Frontage,Area
+Lot Area,Area
+Street,Estate
+Alley,Estate
+Lot Shape,Estate
+Land Contour,Estate
+Utilities,Amenities
+Lot Config,Estate
+Land Slope,Estate
+Neighborhood,Location
+Condition 1,Location
+Condition 2,Location
+Bldg Type,Types
+House Style,Types
+Overall Qual,Condition
+Overall Cond,Condition
+Year Built,Time
+Year Remod/Add,Time
+Roof Style,Exterior
+Roof Matl,Exterior
+Exterior 1st,Exterior
+Exterior 2nd,Exterior
+Mas Vnr Type,Exterior
+Mas Vnr Area,Exterior
+Exter Qual,Exterior
+Exter Cond,Exterior
+Foundation,Exterior
+Bsmt Qual,Basement
+Bsmt Cond,Basement
+Bsmt Exposure,Basement
+BsmtFin Type 1,Basement
+BsmtFin SF 1,Basement
+BsmtFin Type 2,Basement
+BsmtFin SF 2,Basement
+Bsmt Unf SF,Basement
+Total Bsmt SF,Basement
+Heating,Amenities
+Heating QC,Amenities
+Central Air,Amenities
+Electrical,Amenities
+1st Flr SF,Area
+2nd Flr SF,Area
+Low Qual Fin SF,Area
+Gr Liv Area,Area
+Bsmt Full Bath,Bathroom
+Bsmt Half Bath,Bathroom
+Full Bath,Bathroom
+Half Bath,Bathroom
+Bedroom AbvGr,Interior
+Kitchen AbvGr,Interior
+Kitchen Qual,Interior
+TotRms AbvGrd,Interior
+Functional,Interior
+Fireplaces,Interior
+Fireplace Qu,Interior
+Garage Type,Garage
+Garage Yr Blt,Garage
+Garage Finish,Garage
+Garage Cars,Garage
+Garage Area,Garage
+Garage Qual,Garage
+Garage Cond,Garage
+Paved Drive,Exterior
+Wood Deck SF,Area
+Open Porch SF,Area
+Enclosed Porch,Area
+3Ssn Porch,Area
+Screen Porch,Area
+Pool Area,Misc
+Pool QC,Misc
+Fence,Misc
+Misc Feature,Misc
+Misc Val,Misc
+Mo Sold,Time
+Yr Sold,Time
+Sale Type,Types
